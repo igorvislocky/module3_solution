@@ -1,0 +1,109 @@
+ 
+ /** HEADER **/
+ #header-nav {
+    background-color: rgb(92, 92, 92);
+    border-radius: 0;
+    border: 0;
+ }
+
+ .navbar-brand {
+    padding-top: 15px;
+    padding-bottom: 35px;
+  }
+
+  .navbar-brand h1 { /* Restaurant name */
+    font-family: 'Lora', serif;
+    color: black;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px #222;
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: .75;
+  }
+
+  .navbar-brand a:hover, .navbar-brand a:focus {
+    text-decoration: none;
+  }
+
+  /********* navlist */ 
+  #nav-list {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    border:2px solid #222
+  }
+  #nav-list a {
+    color: black;
+    background-color: white;
+  
+    padding-bottom:0px;
+  }
+
+  #nav-list a:hover {
+    background: #E7E7E7;
+  }
+  #nav-list a span {
+    font-size: 1.8em;
+  }
+
+  #nav-list hr {
+    width:100%;
+    border-top:1px solid black;
+    margin:0 
+   }
+
+
+  /********* navbar-header */ 
+  .navbar-header button.navbar-toggle{
+    border: 2px solid #222;  /* Default border */
+  }
+
+  .navbar-header .navbar-toggle .icon-bar {
+    background-color: #222; /* Default icon-bar color */
+}
+
+  .navbar-header button.navbar-toggle {
+    clear: both;
+    margin-top: -30px;
+  }
+
+/* When clicked (active) */
+.navbar-header .navbar-toggle:focus, 
+.navbar-header .navbar-toggle[aria-expanded="true"] {
+    border-color: white !important; /* Change border to white */
+}
+
+.navbar-header .navbar-toggle:focus .icon-bar, 
+.navbar-header .navbar-toggle[aria-expanded="true"] .icon-bar {
+    background-color: white !important; /* Change icon-bar color to white */
+}
+
+  /********* home-tiles */ 
+#chicken-tile, #beef-tile, #sushi-tile {
+    position:relative;
+    width:100%;
+    margin-bottom: 15px;
+    background-color: grey;
+}
+
+#chicken-tile:hover, #beef-tile:hover, #sushi-tile:hover {
+    box-shadow: 0 1px 5px 1px #100d0d
+  }
+
+#chicken-tile div, #beef-tile  div, #sushi-tile  div {
+    width:100%;
+    text-align:center;
+    font-size:1.6em;
+
+}
+
+#chicken-tile p, #beef-tile  p, #sushi-tile  p {
+  text-align: center;
+  margin:  15px; 
+}
+
+#main-content h2 {
+    margin-bottom:30px;
+}
+/* MEDIA QUERIES */ 
